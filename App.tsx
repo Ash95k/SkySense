@@ -16,7 +16,7 @@ import { BadgesScreen } from './components/BadgesScreen';
 import { VoiceAssistant } from './components/VoiceAssistant';
 import { api } from './utils/supabase/client';
 import { Toaster } from './components/ui/sonner';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 type AppScreen = 'splash' | 'onboarding' | 'healthProfile' | 'home' | 'parks' | 'alerts' | 'forecast' | 'settings' | 'notifications' | 'trends' | 'profile' | 'community' | 'eco' | 'badges';
 

@@ -1,0 +1,24 @@
+
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "SkySense aims to be more than a traditional weather app by integrating health-aware forecasting. In many regions, air quality, dust particles, humidity, and extreme weather directly affect people's health and lifestyle. Traditional apps often show raw data without translating it into personalized, actionable recommendations.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.1",
+    "sonner": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3"
+  }
+}

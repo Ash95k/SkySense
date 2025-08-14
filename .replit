@@ -1,0 +1,20 @@
+modules = ["nodejs-20"]
+run = "run"
+
+[nix]
+channel = "stable-25_05"
+
+[deployment]
+run = ["sh", "-c", "run"]
+
+[workflows]
+runButton = "Start SkySense"
+
+[[workflows.workflow]]
+name = "Start SkySense"
+author = 46422631
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm run dev"
